@@ -1,0 +1,56 @@
+@import '../CustomButtonStyle.module.scss';
+
+.App {
+  padding: 42px;
+
+  @media (width <= 1240px) {
+    padding: 24px;
+
+  }
+
+  @media (width <= 600px) {
+    padding: 16px;
+
+  }
+
+  .button {
+    @include ButtonStyle(rgba(235, 2, 55, 1), rgba(160, 17, 49, 1), rgba(112, 19, 40, 1));
+    font-size: 18px;
+
+  }
+
+  .CounterUserKillsWrapper {
+    width: 15%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  white-space: pre;
+  font-size: 30px;
+  line-height: 1.2em;
+  height:1.2em;
+  overflow: hidden;
+}
+.loader:before {
+  content:"Loading...\A⌰oading...\A⌰⍜ading...\A⌰⍜⏃ding...\A⌰⍜⏃⎅ing...\A⌰⍜⏃⎅⟟ng...\A⌰⍜⏃⎅⟟⋏g...\A⌰⍜⏃⎅⟟⋏☌...\A⌰⍜⏃⎅⟟⋏☌⟒..\A⌰⍜⏃⎅⟟⋏☌⟒⏁.\A⌰⍜⏃⎅⟟⋏☌⟒⏁⋔";
+  white-space: pre;
+  display: inline-block;
+  animation: l39 1s infinite steps(11) alternate;
+}
+
+@keyframes l39 {
+  100%{transform: translateY(-100%)}
+}

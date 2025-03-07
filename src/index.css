@@ -3,8 +3,8 @@ body {
   font-family: -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(9, 9, 9, 1);
-  color: aliceblue;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;

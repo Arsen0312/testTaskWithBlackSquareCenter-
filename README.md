@@ -2,7 +2,7 @@
 
 Для запуска пропишите две команды ниже описаны
 
-```bash
+```zsh
  my-app git:(main) npm install
 
 ```
@@ -13,3 +13,4 @@
  my-app git:(main) npm run dev
 
 ```
+# testTaskWithBlackSquareCenter-
